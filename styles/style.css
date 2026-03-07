@@ -153,10 +153,11 @@ ol {
   display: block;
   width: 100%;
   height: 100%;
+  background-color: white;
   opacity: 0;
 }
 
-.search-form__pseudo-checkbox:checked .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
