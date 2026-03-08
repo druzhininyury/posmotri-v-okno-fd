@@ -157,9 +157,17 @@ ol {
   opacity: 1;
 }
 
+.search-form__label:active .search-form__pseudo-checkbox::after {
+  opacity: 1;
+}
+
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-decoration-skip-ink: none;
+}
+
+.search-form__label:active .search-form__label-text {
+  text-decoration: none;
 }
 
 .button {
