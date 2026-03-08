@@ -259,6 +259,7 @@ ol {
 }
 
 .content__card-link:active {
+  text-decoration: none;
   background-color: #545050;
 }
 
