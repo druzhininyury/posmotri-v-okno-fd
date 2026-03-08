@@ -206,12 +206,13 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 22px;
   width: 399px;
   height: 100%;
 }
 
 .title {
+  padding-top: 4px;
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
@@ -236,12 +237,11 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 24px;
 }
 
 .content__list-item {
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 3px;
 }
 
 .content__card-link {
@@ -276,7 +276,7 @@ ol {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
   max-width: 196px;
   flex-grow: 1;
 }
